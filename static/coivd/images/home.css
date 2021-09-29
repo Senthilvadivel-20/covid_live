@@ -7,8 +7,8 @@ body{
   }
 
 .case_plot{
-    width: 100px;
-    height: 500px; 
+    width: "100";
+    height: "300"; 
     height: auto;  
 }
 
@@ -20,7 +20,7 @@ body{
 
 
 .recover{
-    width: 250px;
-    height: 400px; 
+    width: "250";
+    height: "400"; 
     height: auto; 
 }
