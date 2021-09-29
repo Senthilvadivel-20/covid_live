@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+    <link rel="stylesheet" href="{% static '\coivd\images\home.css' %}">
+
+    <head>
+    <title>
+        Covid-19
+    </title>
+
+
+</head>
+
+<body background="{% static 'coivd\images\cvd.jpg'%}">
+
+    <p>
+        World corona cases : {{Cases}}
+    </p>
+
+    <p>
+        Total Death : {{Death}}
+    </p>
+
+    <p>
+        Total recovery : {{Recovery}}
+    </p>
+
+    <div>
+
+        <h2>Covid-19 cases world wide</h2>
+
+    <div class="case_plot">
+
+      <img src="{%static '\coivd\images\cases.png' %}"/>
+
+    </div>
+
+    <div class="deat_plot">
+
+      <img src="{% static '\coivd\images\death.png' %}"/>
+
+    </div>
+
+    <div class="recover">
+    
+      <img src="{% static '\coivd\images\recovery.png'%}"/>
+        
+    </div>  
+
+    </div>
+
+    <br><br>
+
+    <a href="{% url 'map'%}"><button>See Map</button></a>
+
+</body>
+</html>

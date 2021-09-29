@@ -1,0 +1,26 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+  }
+
+.case_plot{
+    width: 100px;
+    height: 500px; 
+    height: auto;  
+}
+
+.death_plot{
+    width: 200px;
+    height: 300px; 
+    height: auto;  
+}
+
+
+.recover{
+    width: 250px;
+    height: 400px; 
+    height: auto; 
+}
